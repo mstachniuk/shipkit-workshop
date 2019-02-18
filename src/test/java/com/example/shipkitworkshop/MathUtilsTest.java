@@ -18,4 +18,10 @@ public class MathUtilsTest {
         assertFalse(MathUtils.isTriangle(3, 4, 10));
     }
 
+    @Test
+    public void shouldNotCreateTriangle2() {
+        assertFalse(MathUtils.isTriangle(5, 5, 10));
+    }
+
+
 }
