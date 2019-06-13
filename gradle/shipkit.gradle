@@ -10,7 +10,7 @@ shipkit {
    //generate and use your own read-only GitHub personal access token
    gitHub.readOnlyAuthToken = "fef148548e4111fd2c2bc3a9b755b75695a2f006"
 
-   //TODO generate GitHub write token, and ensure your Travis CI has this env variable exported
+   // generate GitHub write token, and ensure your Travis CI has this env variable exported
    gitHub.writeAuthToken = System.getenv("GH_WRITE_TOKEN")
 }
 
